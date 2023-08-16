@@ -19,9 +19,9 @@ API to perform CRUD Operations.
 ## Get TODO Data
 
 ### Request
-    `GET /getData`
+`GET /getData`
 
-        curl --location 'http://localhost:3000/api/getData'
+    curl --location 'http://localhost:3000/api/getData'
 
 ### Response
 
@@ -55,9 +55,9 @@ API to perform CRUD Operations.
 
 ## Get TODO Data By ID
 ### Request
-    `GET /getDataById/:id`
+`GET /getDataById/:id`
 
-        curl --location 'http://localhost:3000/api/getDataById/1'
+    curl --location 'http://localhost:3000/api/getDataById/1'
 
 ### Response
     HTTP 200 OK
@@ -76,9 +76,9 @@ API to perform CRUD Operations.
 ## POST TODO Data 
 
 ### Request
-    `POST /postData`
+`POST /postData`
 
-        curl --location 'http://localhost:3000/api/postData' \
+    curl --location 'http://localhost:3000/api/postData' \
         --header 'Content-Type: application/json' \
         --data '{
             "title": "test2",
@@ -99,9 +99,9 @@ API to perform CRUD Operations.
 ## PATCH TODO Data
 
 ### Request
-    `PATCH /updateData/:id`
+`PATCH /updateData/:id`
 
-        curl --location --request PATCH 'http://localhost:3000/api/updateData/5' \
+    curl --location --request PATCH 'http://localhost:3000/api/updateData/5' \
         --header 'Content-Type: application/json' \
         --data '{
             "title": "testUpdate1",
@@ -124,9 +124,9 @@ API to perform CRUD Operations.
 ## DELETE TODO Data
 
 ### Request
-    `DELETE /deleteDataById/:id`
-    
-        curl --location --request DELETE 'http://localhost:3000/api/deleteDataById/6' 
+`DELETE /deleteDataById/:id`
+
+    curl --location --request DELETE 'http://localhost:3000/api/deleteDataById/6' 
 
 ### Response
     HTTP 200 OK
