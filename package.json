@@ -1,0 +1,28 @@
+{
+  "name": "todo",
+  "version": "1.0.0",
+  "description": "performing crud operations",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TanuAggarwal/TODO.git"
+  },
+  "author": "tanu aggarwal",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TanuAggarwal/TODO/issues"
+  },
+  "homepage": "https://github.com/TanuAggarwal/TODO#readme",
+  "dependencies": {
+    "express": "^4.18.2",
+    "sqlite3": "^5.1.6"
+  },
+  "devDependencies": {
+    "jest": "^29.6.2",
+    "nodemon": "^3.0.1"
+  }
+}
